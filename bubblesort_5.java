@@ -24,5 +24,6 @@ public class bubblesort_5{
         {
             System.out.print(numbers[i]+" ");
         }
+        s.close();
     }
 }

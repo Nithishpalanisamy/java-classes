@@ -1,5 +1,5 @@
 // Employee.java
-public class Employee {
+class Employee {
     protected String empName;
     protected int empId;
     protected String address;

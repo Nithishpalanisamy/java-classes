@@ -34,6 +34,6 @@ class employees_5{
          for (int i = 0; i < 8; i++) {
             System.out.println( totalHours[i] + " hours");
         }
-
+            in.close();
     }
 }

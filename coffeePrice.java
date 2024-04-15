@@ -27,13 +27,13 @@ class coffeePrice{
         System.out.println("Weights per bag ");
         weigth_per_bag=in.nextDouble();
         CoffeeBag c1=new CoffeeBag();
-        double total_price=c1.totalPrice(bags,weigth_per_bag);
+        //double total_price=c1.totalPrice(bags,weigth_per_bag);
         double tot_price_with_tax=c1.totalPriceWithTax();
         System.out.println("ber of bags sold "+bags);
         System.out.println("Weight per bag "+weigth_per_bag);
         System.out.println("Price per pound "+ c1.price_per_pound);
         System.out.println("Sales tax "+c1.tax_rate);
         System.out.println("Total price "+tot_price_with_tax);
-
+            in.close();
     }
 }

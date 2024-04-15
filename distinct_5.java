@@ -28,5 +28,6 @@ public class distinct_5{
         {
             System.out.print(num[i]+" ");
         }
+        s.close();
     }
 }
