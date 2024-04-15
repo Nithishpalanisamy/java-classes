@@ -12,6 +12,7 @@ public class vowels_5{
             int vowelcount=countvowels(word);
             System.out.println(word+" contains "+vowelcount+" vowels");
         }
+        s.close();
     }
     public static int countvowels(String word) // Corrected the class name
     {

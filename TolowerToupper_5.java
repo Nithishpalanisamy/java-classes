@@ -15,5 +15,6 @@ public class TolowerToupper_5{
         }
         System.out.println("Total of uppercase letters "+uppercase);
         System.out.println("Total of lowercase letters "+lowercase);
+        s.close();
     }
 }

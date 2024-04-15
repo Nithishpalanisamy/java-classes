@@ -16,5 +16,6 @@ class ticketSale{
         double c2=s.nextDouble();
         double tot_price=(a1*a2)+(b1*b2)+(c1*c2);
         System.out.println("Total Price: "+tot_price);
+        s.close();
     }
 }
